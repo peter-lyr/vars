@@ -1,7 +1,10 @@
-Home   = vim.fn.expand '$HOME'
+Home       = vim.fn.expand '$HOME'
 
-Org    = Home .. '\\org'
-Dp     = Home .. '\\dp'
+Org        = Home .. '\\org'
+Dp         = Home .. '\\dp'
 
-Name   = 'peter-lyr'
-Email  = 'llydrp.ldp@gmail.com'
+Name       = 'peter-lyr'
+Email      = 'llydrp.ldp@gmail.com'
+
+TreeSitter = StdData .. 'TreeSitter'
+Mason      = StdData .. 'Mason'
